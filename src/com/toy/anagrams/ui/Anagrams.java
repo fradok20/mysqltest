@@ -71,6 +71,7 @@ public class Anagrams extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 new Anagrams().setVisible(true);
+                System.out.println("Hello");
             }
         });
     }
