@@ -72,6 +72,7 @@ public class Anagrams extends JFrame {
             public void run() {
                 new Anagrams().setVisible(true);
                 System.out.println("Hello");
+                System.out.println("Hello github");
             }
         });
     }
