@@ -88,7 +88,7 @@ public class Anagrams extends JFrame {
         pack();
         guessedWord.requestFocusInWindow();
         // Center in the screen
-        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        Dimension  screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         Dimension frameSize = getSize();
         setLocation(new Point((screenSize.width - frameSize.width) / 2,
                               (screenSize.height - frameSize.width) / 2));
